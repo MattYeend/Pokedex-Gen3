@@ -1,7 +1,7 @@
 <?php
 
 namespace Database\Seeders;
-
+use DB;
 use Illuminate\Database\Seeder;
 
 class TypesSeeder extends Seeder
@@ -86,5 +86,6 @@ class TypesSeeder extends Seeder
 				'type' => 'Bug',
 				'colours' => NULL,
 			],
+		]);
     }
 }
