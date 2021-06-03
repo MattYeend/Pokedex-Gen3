@@ -14,7 +14,7 @@ class PokedexSeeder extends Seeder
      */
     public function run()
     {
-    	DB::table('pokedex')->insert([
+    	DB::table('pokedexes')->insert([
         	[
 				'id' => 252,
 				'name' => 'Treecko',
